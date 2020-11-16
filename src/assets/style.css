@@ -1,0 +1,95 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  background: linear-gradient(to right, rgb(5, 93, 109), rgb(8, 30, 88));
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  margin: 0;
+}
+
+header {
+  padding: 10px 20px;
+  border-bottom: 2px solid #fff;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+main input,
+label {
+  padding: 4px 8px;
+  font-size: 1.2em;
+  outline: none;
+  border-radius: 2px;
+  border: 0;
+}
+
+main input {
+  width: 120px;
+  text-align: center;
+}
+
+main button {
+  padding: 4px 8px;
+  font-size: 1.2em;
+  border-radius: 2px;
+  border: 0;
+}
+
+.adress {
+  color: #fff;
+  line-height: 1.8em;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.adress ul {
+  width: 100%;
+  height: 100%;
+}
+
+.adress ul li {
+  list-style: none;
+  font-size: 1.2em;
+  line-height: 2em;
+  font-weight: normal;
+  color: #969696;
+}
+
+h1 {
+  text-align: center;
+  font-size: 54px;
+}
+
+.erro {
+  display: flex;
+  margin: auto;
+  width: 26%;
+  border-radius: 5px;
+  margin-top: 5px;
+  padding: 5px 4px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: red;
+}
+
+.info {
+  color: #fff;
+  font-weight: bold;
+}
